@@ -1,0 +1,22 @@
+[
+  {"q": "What are the six stages of the framework?", "a": "Design Cycle: Immerse, Imagine, Iterate. Deliver Cycle: Build, Launch, Monitor."},
+  {"q": "What are the \"Three I's of Innovation\"?", "a": "Immerse, Imagine, and Iterate. Together they help you find the right problem and the best solution."},
+  {"q": "What's the goal of Immerse?", "a": "Understand your audience's real needs, hopes, and frustrations, so you solve the right problem, not just the loudest one."},
+  {"q": "What question turns your challenge into fuel for Imagine?", "a": "\"How might we...?\" It turns obstacles into opportunities and sets the edges for brainstorming."},
+  {"q": "What three questions help you pick an idea to test?", "a": "Is it Desirable? Is it Feasible? Is it Sustainable?"},
+  {"q": "How does \"Yes, and...\" help a brainstorm?", "a": "It builds on each other's ideas instead of blocking them, which keeps energy high and fear of failure low."},
+  {"q": "What are the three types of prototypes?", "a": "Concept (describe or sketch it), Facade (looks real but doesn't work), and Working (a real, simple version)."},
+  {"q": "What is an MVP?", "a": "A Minimum Viable Product: only what's essential. Aim for the 20% of the work that gives 80% of the value."},
+  {"q": "How many people should test a prototype?", "a": "At least five. Five is the minimum you need to spot patterns."},
+  {"q": "What are your three choices at the decision point?", "a": "At the end of Iterate: develop it, stop here, or go back to Imagine."},
+  {"q": "What's the difference between alpha and beta testing?", "a": "Alpha tests happen internally to catch bugs. Beta tests put your work in the hands of real users."},
+  {"q": "What should you resist doing at the end of Build?", "a": "Launching without training, if your product needs it."},
+  {"q": "What may be the single most important step of Launch?", "a": "Identifying the Product Lead with the Sponsor and onboarding them."},
+  {"q": "Who leads the Monitor phase?", "a": "The Product Lead, who keeps the product healthy and finds ways to reach new people and audiences."},
+  {"q": "By when must a Product Lead be in place?", "a": "By the end of the Launch phase. Bringing them in earlier is even better."},
+  {"q": "What does the Sponsor do?", "a": "Starts the project, defines the challenge and scope, secures resources, and keeps it lined up with ministry goals."},
+  {"q": "What chart clarifies how stakeholders are involved?", "a": "A CARIS chart. It defines how and when each stakeholder takes part."},
+  {"q": "What is a Mini Check In?", "a": "A quick pause at the end of each phase: what went well, what would we change, and a short update to stakeholders. Minutes, not hours."},
+  {"q": "What one question does Net Promoter Score ask?", "a": "\"How likely are you to recommend this to someone else?\""},
+  {"q": "Do you have to follow every step, every time?", "a": "No. The framework is a shared guide and shared language. You decide which steps your project needs."}
+]
