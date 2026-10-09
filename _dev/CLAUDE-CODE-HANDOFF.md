@@ -43,7 +43,7 @@ We're building the intro website for Cru Campus Ministry's **Product Development
    Remove the "Idea" tags.
 7. **Motion and accessibility**: keep Bright's gentle float, turn it off with `prefers-reduced-motion`. Images that are decorative get `alt=""`; Bright images get a short `role="img"` label. WCAG AA contrast. Visible focus styles. Proper heading order. Skip link to main content.
 8. **Head**: title "Product Development Framework | Cru Campus Ministry", meta description, Open Graph tags using `assets/mascot/icon.webp`, favicon from the same image. Load Sora 800 and Inter 400/500/600 from Google Fonts.
-9. **Hosting**: GitHub Pages from `main`. Add a `CNAME` file with `framework.crutastic.com` (I'll confirm the subdomain and add the DNS record).
+9. **Hosting**: GitHub Pages from `main`. Add a `CNAME` file with `productdevelopment.crutastic.com` (I'll confirm the subdomain and add the DNS record).
 10. Add a short `README.md` (what the site is, where content lives, how to update Ask Bright's URL) and a `CLAUDE.md` with project notes, following the same Two Machine Rules and Session Rhythm I use on the Legacy site.
 
 ## Content rules

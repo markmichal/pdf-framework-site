@@ -1,6 +1,6 @@
 # Product Development Framework site
 
-One page static site for Cru Campus Ministry's Product Development Framework. `index.html` has inline CSS and JS, no framework, no build step. Deployed by GitHub Pages from `main` root at https://framework.crutastic.com (also https://markmichal.github.io/pdf-framework-site/).
+One page static site for Cru Campus Ministry's Product Development Framework. `index.html` has inline CSS and JS, no framework, no build step. Deployed by GitHub Pages from `main` root at https://productdevelopment.crutastic.com (also https://markmichal.github.io/pdf-framework-site/).
 
 ## Architecture (do not break these connections)
 
@@ -8,7 +8,7 @@ One page static site for Cru Campus Ministry's Product Development Framework. `i
 - **`ASK_URL`** at the top of the script: the Google Apps Script web app that powers Ask Bright. While it still says `PASTE_APPS_SCRIPT_URL_HERE` the box shows "Ask Bright is almost ready". The request is a POST with `Content-Type: text/plain` (avoids a CORS preflight, which Apps Script can't answer). Response is `{answer}` or `{error}`.
 - **flashcards.json**: loaded with `fetch`, so test through a local server, not `file://`.
 - **_dev/**: mockup (`design-reference/`), Apps Script source (`apps-script/`), original handoff. Underscore folders are skipped by GitHub Pages. Do NOT add `.nojekyll`.
-- **CNAME**: `framework.crutastic.com`.
+- **CNAME**: `productdevelopment.crutastic.com`.
 
 ## Brand and content rules
 
