@@ -411,7 +411,7 @@ footer a{display:inline-flex;align-items:center;gap:8px;min-height:44px;color:#F
 </footer>
 
 <script>
-const ASK_URL = 'PASTE_APPS_SCRIPT_URL_HERE';
+const ASK_URL = 'https://script.google.com/macros/s/AKfycbwKIVlmwvbVlB68zKQJ9S5zRDnEDlIN4IP0iCINxwG2OeWerqXfI8aF-pW2dhgD03iQXw/exec';
 
 (function () {
   // Tell screen readers which links open a new tab
@@ -450,7 +450,7 @@ const ASK_URL = 'PASTE_APPS_SCRIPT_URL_HERE';
   // Escape first, then paragraphs and "- " bullets only
   function render(text) {
     var html = '';
-    esc(String(text)).split(/\n\s*\n/).forEach(function (block) {
+    esc(String(text).replace(/\*\*/g, '')).split(/\n\s*\n/).forEach(function (block) {
       var para = [], list = [];
       function flushPara() { if (para.length) { html += '<p>' + para.join(' ') + '</p>'; para = []; } }
       function flushList() { if (list.length) { html += '<ul>' + list.map(function (li) { return '<li>' + li + '</li>'; }).join('') + '</ul>'; list = []; } }
