@@ -1,9 +1,10 @@
 # Handoff
 
 ## 2026-11-07
-- Ask Bright's 30-day API key was expiring 2026-11-08. Mark made "Ask Bright 2" (Never expires, Default workspace) and pasted it into Script Properties. Tested: Ask Bright answers.
-- Correction: the Apps Script is in Mark's PERSONAL Google account, not Cru (the 2026-10-09 note below was wrong).
-- Open: move the script to the Cru account (check Cru allows "Anyone" web app access first). Open: API keys helper in command-center.
+- Ask Bright's 30-day API key was expiring 2026-11-08. Mark made "Ask Bright 2" (Never expires, Default workspace).
+- The script holding the old key was never found. A personal-account copy can't read the Cru Docs ("Action not allowed"). So Mark made a new "Ask Bright" script in his Cru account with the new key, deployed it (Anyone), and ASK_URL now points there. Tested from outside: answers.
+- Correction: the 2026-10-09 note saying the script was in the Cru account was wrong at the time; it is now.
+- Open: turn off the old "Ask Bright" key and retest; delete the unused personal-account copy (optional). API keys helper in command-center.
 
 ## 2026-10-09
 - Built the full site from the approved mockup (`_dev/design-reference/`). Checked at 360, 768, and 1280px: no horizontal scroll, tap targets 44px+.

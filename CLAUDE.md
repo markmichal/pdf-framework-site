@@ -25,12 +25,13 @@ Edit index.html, commit, push to `main`, Pages rebuilds in 1 to 2 minutes. The A
 
 ## Ask Bright's API key (Mark, 2026-11-07)
 
-- The Apps Script lives in Mark's PERSONAL Google account (not Cru): script.google.com > Ask Bright > Project Settings > Script Properties > `ANTHROPIC_API_KEY`.
+- The live Apps Script is "Ask Bright" in Mark's CRU Google account (made 2026-11-07). Key is in Project Settings > Script Properties > `ANTHROPIC_API_KEY`. `ASK_URL` in index.html points to its web app (ends ...7cGy/exec).
+- It must be the Cru account: the framework Docs are in Cru Drive, and a personal-account script gets "Action not allowed" reading them. Cru does allow "Anyone" web app access (tested 2026-11-07).
+- Old copies, no longer used: an undeployed "Ask Bright" in Mark's personal Gmail account (also has a deployment from 2026-11-07, can be deleted), and the original web app (...KIVlmwv...) whose script we never found.
 - Key comes from Mark's own Claude Console org ("Mark's Individual Org"): https://platform.claude.com/settings/keys
-- Current key: "Ask Bright 2", made 2026-11-07, set to Never expire, workspace Default (the script sends no workspace header, so the key must be scoped to a workspace). Old 30-day key "Ask Bright" expired 2026-11-08.
-- Mark's choice: Never-expiring keys for light apps like this. Claude can't create or paste keys; Mark does that, Claude tests by POSTing a question to ASK_URL.
-- Not federation: Mark asked; it doesn't fit Apps Script or GitHub Pages sites.
-- Later (Mark wants it): move the script to his Cru account. Means a new copy and new web app URL in ASK_URL; first check Cru's Google allows "Anyone" access to web apps.
+- Current key: "Ask Bright 2", made 2026-11-07, Never expires, workspace Default (the script sends no workspace header, so the key must be scoped to a workspace). Old 30-day key "Ask Bright" expired 2026-11-08.
+- Mark's choice: Never-expiring keys for light apps like this. Claude can't create or paste keys; Mark does that. Claude tests by POSTing {"question": ...} to ASK_URL. If it says "couldn't answer", have Mark run `testAsk` in the editor to see the real error.
+- Not identity federation: Mark asked; it doesn't fit Apps Script or GitHub Pages sites.
 - Planned: an "API keys" helper in ~/Projects/command-center listing every app's key, where it lives, and how to swap it.
 
 ## Two-Machine Rules
