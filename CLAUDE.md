@@ -23,6 +23,16 @@ One page static site for Cru Campus Ministry's Product Development Framework. `i
 
 Edit index.html, commit, push to `main`, Pages rebuilds in 1 to 2 minutes. The Apps Script is deployed separately by Mark (see `_dev/apps-script/SETUP-ASK-BRIGHT.md`). The API key lives only in Apps Script Script Properties, never in this repo.
 
+## Ask Bright's API key (Mark, 2026-11-07)
+
+- The Apps Script lives in Mark's PERSONAL Google account (not Cru): script.google.com > Ask Bright > Project Settings > Script Properties > `ANTHROPIC_API_KEY`.
+- Key comes from Mark's own Claude Console org ("Mark's Individual Org"): https://platform.claude.com/settings/keys
+- Current key: "Ask Bright 2", made 2026-11-07, set to Never expire, workspace Default (the script sends no workspace header, so the key must be scoped to a workspace). Old 30-day key "Ask Bright" expired 2026-11-08.
+- Mark's choice: Never-expiring keys for light apps like this. Claude can't create or paste keys; Mark does that, Claude tests by POSTing a question to ASK_URL.
+- Not federation: Mark asked; it doesn't fit Apps Script or GitHub Pages sites.
+- Later (Mark wants it): move the script to his Cru account. Means a new copy and new web app URL in ASK_URL; first check Cru's Google allows "Anyone" access to web apps.
+- Planned: an "API keys" helper in ~/Projects/command-center listing every app's key, where it lives, and how to swap it.
+
 ## Two-Machine Rules
 
 - Repos must live in a plain local folder, never inside a Google Drive-synced folder, because Drive can corrupt `.git` with conflict-copy files.
