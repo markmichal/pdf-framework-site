@@ -32,7 +32,7 @@ Edit index.html, commit, push to `main`, Pages rebuilds in 1 to 2 minutes. The A
 - Current key: "Ask Bright 2", made 2026-11-07, Never expires, workspace Default (the script sends no workspace header, so the key must be scoped to a workspace). Old 30-day key "Ask Bright" expired 2026-11-08.
 - Mark's choice: Never-expiring keys for light apps like this. Claude can't create or paste keys; Mark does that. Claude tests by POSTing {"question": ...} to ASK_URL. If it says "couldn't answer", have Mark run `testAsk` in the editor to see the real error.
 - Not identity federation: Mark asked; it doesn't fit Apps Script or GitHub Pages sites.
-- Planned: an "API keys" helper in ~/Projects/command-center listing every app's key, where it lives, and how to swap it.
+- Every app's key and the swap steps: ~/Projects/command-center/API-KEYS.md (built 2026-11-07).
 
 ## Two-Machine Rules
 
