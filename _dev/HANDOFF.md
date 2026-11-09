@@ -3,7 +3,8 @@
 ## 2026-11-09
 - Renamed to "Ministry Product Framework" (was Product Development Framework): page heading, tab title, link preview text, email subject lines, README. Web address unchanged on purpose so old links work. Pushed with Mark's OK.
 - Made a Workvivo post (picture + text) for the Campus Innovation page. Saved in Drive: CRU > EVENTS & PROJECTS > 2026-2027 > Ministry Product Framework > Workvivo Post.
-- Open: Ask Bright answers from the framework docs; if those still say the old name, Bright may too. Optional later: a new web address with the new name.
+- New address mpf.crutastic.com: Mark added the GoDaddy CNAME and deleted the old productdevelopment record; GitHub Pages custom domain switched, HTTPS enforced, checked live. Projects hub card renamed and relinked. Workvivo picture and text use the new address.
+- Open: Ask Bright answers from the framework docs; if those still say the old name, Bright may too. 
 
 ## 2026-11-07
 - Ask Bright's 30-day API key was expiring 2026-11-08. Mark made "Ask Bright 2" (Never expires, Default workspace).
