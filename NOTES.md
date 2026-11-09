@@ -2,7 +2,7 @@
 
 A one-page site that explains Cru Campus Ministry's Product Development Framework: why it matters, the six stages and the roles at a glance, "Ask Bright" (a chat box that answers questions straight from the framework docs), ways to learn it, a toolbox of templates, and 20 flashcards.
 
-Live at https://productdevelopment.crutastic.com (also https://markmichal.github.io/pdf-framework-site/). GitHub repo: markmichal/pdf-framework-site (public). `_dev/HANDOFF.md` is the dated session log.
+Live at https://mpf.crutastic.com (was productdevelopment.crutastic.com until 2026-11-09; also https://markmichal.github.io/pdf-framework-site/). GitHub repo: markmichal/pdf-framework-site (public). `_dev/HANDOFF.md` is the dated session log.
 
 ## Why Mark built this
 From his Projects Hub card: "So a team can see the whole process at once instead of hunting through slide decks." What he learned: "Connected Claude to ChatGPT to make better images, and built a chat bot that answers questions straight from the document."
@@ -22,7 +22,8 @@ From his Projects Hub card: "So a team can see the whole process at once instead
 - 2026-10-09: Custom domain productdevelopment.crutastic.com.
 - 2026-10-12: Mark's and Lorenna's names are email links with a pre-filled subject.
 - 2026-11-07: Ask Bright moved to a new Apps Script in Mark's Cru Google account (a personal-account script can't read the Cru Drive docs). New key "Ask Bright 2" from Mark's own Claude Console org, never expires (Mark's choice for light apps like this); old key disabled. Identity federation doesn't fit Apps Script or GitHub Pages sites.
-- 2026-11-09: Renamed to "Ministry Product Framework" (was Product Development Framework) on the page, tab title, link preview, and email subjects. Web address stays productdevelopment.crutastic.com so old links keep working. Workvivo post assets for the Campus Innovation page are in Drive: CRU > EVENTS & PROJECTS > 2026-2027 > Ministry Product Framework > Workvivo Post.
+- 2026-11-09: Renamed to "Ministry Product Framework" (was Product Development Framework) on the page, tab title, link preview, and email subjects.
+- 2026-11-09: New address mpf.crutastic.com (GoDaddy CNAME to markmichal.github.io). Mark chose to let the old productdevelopment address stop, no redirect; its GoDaddy record removed. Workvivo post assets for the Campus Innovation page are in Drive: CRU > EVENTS & PROJECTS > 2026-2027 > Ministry Product Framework > Workvivo Post.
 - 2026-11-07: Every app's key and swap steps are listed in ~/Projects/command-center/API-KEYS.md.
 
 ## Ideas for later

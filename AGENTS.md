@@ -2,7 +2,7 @@
 
 This file is for whatever AI is helping Mark (Claude today, maybe something else later). Read NOTES.md next (why it exists, decisions, history), then `_dev/HANDOFF.md` (the dated session log). README.md is the public front page on GitHub (where things live, how to update); keep it as it is. Copies of past conversations go in `chats/` (kept on this Mac only, never pushed).
 
-One-page site for Cru Campus Ministry's Product Development Framework, with "Ask Bright" (a chat box that answers from the framework docs) and flashcards. Live at https://productdevelopment.crutastic.com. Mark is not a coder: plain words, no em dashes, clickable links.
+One-page site for Cru Campus Ministry's Ministry Product Framework (formerly Product Development Framework), with "Ask Bright" (a chat box that answers from the framework docs) and flashcards. Live at https://mpf.crutastic.com. Mark is not a coder: plain words, no em dashes, clickable links.
 
 ## Rules
 - Don't break the connections: `index.html` is everything (inline CSS and JS); `ASK_URL` at the top of its script points to the Ask Bright Apps Script (POST with `Content-Type: text/plain`, reply is `{answer}` or `{error}`); `flashcards.json` is fetched, so test through a local server; `_dev/` is skipped by GitHub Pages, so do NOT add `.nojekyll`.
