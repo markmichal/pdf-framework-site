@@ -22,6 +22,7 @@ From his Projects Hub card: "So a team can see the whole process at once instead
 - 2026-10-09: Custom domain productdevelopment.crutastic.com.
 - 2026-10-12: Mark's and Lorenna's names are email links with a pre-filled subject.
 - 2026-11-07: Ask Bright moved to a new Apps Script in Mark's Cru Google account (a personal-account script can't read the Cru Drive docs). New key "Ask Bright 2" from Mark's own Claude Console org, never expires (Mark's choice for light apps like this); old key disabled. Identity federation doesn't fit Apps Script or GitHub Pages sites.
+- 2026-11-09: Renamed to "Ministry Product Framework" (was Product Development Framework) on the page, tab title, link preview, and email subjects. Web address stays productdevelopment.crutastic.com so old links keep working. Workvivo post assets for the Campus Innovation page are in Drive: CRU > EVENTS & PROJECTS > 2026-2027 > Ministry Product Framework > Workvivo Post.
 - 2026-11-07: Every app's key and swap steps are listed in ~/Projects/command-center/API-KEYS.md.
 
 ## Ideas for later

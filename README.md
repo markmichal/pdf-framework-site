@@ -1,6 +1,6 @@
-# Product Development Framework site
+# Ministry Product Framework site
 
-One page, static site for Cru Campus Ministry's Product Development Framework. Hosted on GitHub Pages from `main`, at productdevelopment.crutastic.com.
+One page, static site for the Ministry Product Framework from Cru Campus Ministry (formerly the Product Development Framework). Hosted on GitHub Pages from `main`, at productdevelopment.crutastic.com.
 
 ## Where things live
 
