@@ -1,6 +1,6 @@
 # Product Development Framework site: notes for any AI helper
 
-This file is for whatever AI is helping Mark (Claude today, maybe something else later). Read NOTES.md next (why it exists, decisions, history), then `_dev/HANDOFF.md` (the dated session log). README.md is the public front page on GitHub (where things live, how to update); keep it as it is. CLAUDE.md still holds the full working notes this file was made from. Copies of past conversations go in `chats/` (kept on this Mac only, never pushed).
+This file is for whatever AI is helping Mark (Claude today, maybe something else later). Read NOTES.md next (why it exists, decisions, history), then `_dev/HANDOFF.md` (the dated session log). README.md is the public front page on GitHub (where things live, how to update); keep it as it is. Copies of past conversations go in `chats/` (kept on this Mac only, never pushed).
 
 One-page site for Cru Campus Ministry's Product Development Framework, with "Ask Bright" (a chat box that answers from the framework docs) and flashcards. Live at https://productdevelopment.crutastic.com. Mark is not a coder: plain words, no em dashes, clickable links.
 
