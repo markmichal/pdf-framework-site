@@ -10,7 +10,7 @@ We're building the intro website for Cru Campus Ministry's **Product Development
 
 - `design-reference/SiteV1-OnePage.dc.html`: the approved desktop mockup. It's HTML inside a design tool wrapper: the `<helmet>` block holds the CSS, the content sits inside `<x-dc>`, and the `<script type="text/x-dc">` at the bottom is tool metadata (ignore it). Match this design closely: colors, fonts, spacing, section order, copy, and links.
 - `assets/mascot/*.webp`: Bright, the light bulb mascot (22 poses, transparent backgrounds). The site uses `welcome-a`, `thinking-b`, and `thumbsup-b`. Use `icon.webp` for the favicon and share image.
-- `assets/framework/*.webp`: the six stage circles (`bright-immerse` ... `bright-monitor`) and three role icons.
+- `assets/framework/*.webp`: the six stage circles (`bright-immerse` ... `bright-maintain`) and three role icons.
 - `flashcards.json`: 20 flashcards for the flashcard section.
 - `apps-script/ask-bright.gs`: the backend for the "Ask Bright" box (I deploy this myself in Google Apps Script; you just call it).
 - I'll add the Cru brandmark at `assets/brand/cru-brandmark.svg`. Use it in the nav where the mockup has the placeholder. If it isn't there yet, leave a clearly marked TODO.

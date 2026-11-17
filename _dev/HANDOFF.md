@@ -1,5 +1,12 @@
 # Handoff
 
+## 2026-11-17
+- Naming decisions from the team meeting: phase 6 "Monitor" is now "Maintain", and the role "Product Lead" is now "Product Steward". Updated index.html, flashcards.json, the Ask Bright script prompt, the dev notes and the design mockup. Renamed two image files to match (bright-maintain, role-product-steward). The pictures have no words in them, so the art did not change.
+- Changed the tag under Maintain from "Track and maintain" to "Keep it healthy" so it doesn't repeat the title.
+- On a branch (rename-maintain-steward), not pushed to main. Needs Mark's OK to merge.
+- Open: redeploy the Ask Bright script (Deploy > Manage deployments > pencil > New version) so it uses the new names. Also the Drive docs it reads were updated the same day.
+- Parked for later (framework, not site): a support group for the steward, who owns the product, spiritual practices per phase, skills per phase.
+
 ## 2026-11-09
 - Renamed to "Ministry Product Framework" (was Product Development Framework): page heading, tab title, link preview text, email subject lines, README. Web address unchanged on purpose so old links work. Pushed with Mark's OK.
 - Made a Workvivo post (picture + text) for the Campus Innovation page. Saved in Drive: CRU > EVENTS & PROJECTS > 2026-2027 > Ministry Product Framework > Workvivo Post.
