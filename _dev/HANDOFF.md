@@ -1,5 +1,11 @@
 # Handoff
 
+## 2026-11-18
+- New learning media, all made from the current manual (Maintain, Product Steward). Learn section now links: Claude's motion video with music ("Making Progress" from Mark's Music for Videos folder, spliced to fit, 1:40), Gemini Notebook's short podcast (1:19) and full podcast (25:53), and Claude's 14-slide Google Slides deck. All four live in the shared drive's Notebook LM tools folder next to the old ones, anyone with the link can view. Old files left in place, not linked.
+- Fixed old names in pictures: the Canva light bulb ("Product Development Process", page 1) now says Maintain; the manual's bulb and timeline pictures were swapped for fixed versions (timeline: Maintain, Keep It Healthy, Product Steward). Copies in Drive: Ministry Product Framework > Manual Pictures.
+- Gemini Notebook "Ministry Product Framework (Nov 2026)" holds the source for the podcasts and a 5:55 Gemini video (not used; it showed the old pictures).
+- Open: Canva pages 2 to 9 of that design still say Monitor and Develop on the side buttons; the manual's how-to GIF shows the old doc title.
+
 ## 2026-11-17
 - Naming decisions from the team meeting: phase 6 "Monitor" is now "Maintain", and the role "Product Lead" is now "Product Steward". Updated index.html, flashcards.json, the Ask Bright script prompt, the dev notes and the design mockup. Renamed two image files to match (bright-maintain, role-product-steward). The pictures have no words in them, so the art did not change.
 - Changed the tag under Maintain from "Track and maintain" to "Keep it healthy" so it doesn't repeat the title.
